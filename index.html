@@ -1,0 +1,379 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Homework-4 | SSB-276</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+	header{
+		background-color: #D4EAC8;
+		margin: 0 auto;
+		text-align: center;
+		width: 600px;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h2>Sana Ullah</h2>
+		<h3>SSB-276</h3>
+		<h4>SHIKHBE SHOBAI</h4>	
+	</header>
+	<h1 style="width: 70%; margin:auto; text-align: center;">Sub:Next 50 HTML elements Practice</h1>
+	<!--KBD-->
+	<div class="container">
+		<h1>1.kbd</h1>
+		<p>Press <kbd>ctrl</kbd> + <kbd>c</kbd> to copy text.</p>
+		<p>Press <kbd>ctrl</kbd> + <kbd>F4</kbd> to close the tab.</p>
+	</div>
+	<!--LABEL ,LEGEND-->
+	<div class="container">
+		<h1>2.label | 3.legend | 4.meter | 5.textarea</h1>
+		<fieldset>
+		<legend>Ragistration Form</legend>
+		<form class="form" action="#" method="get">
+			<label for="fullname">Full Name:</label>
+			<input type="text" name="fullname" class="fullname" id="fullname" placeholder="Enter Your Full Name">
+
+			<label for="email">Email Address</label>
+			<input type="email" name="email" class="email" id="email" placeholder="Enter Your Email Address">
+
+			<h3>Gender</h3>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" class="male" id="male" ><label for="female">Female</label>
+			<input type="radio" name="gender" class="female" id="female" >
+			<label for="others">Others</label>
+			<input type="radio" name="gender" class="others" id="others" >
+
+			<h3>Educational Qualification:</h3>
+			<label for="ssc">SSC</label>
+			<input type="checkbox" name="ssc" class="ssc" id="ssc">
+
+			<label for="hsc">HSC</label>
+			<input type="checkbox" name="hsc" class="hsc" id="hsc">
+
+			<label for="honours">HONOURS</label>
+			<input type="checkbox" name="honours" class="honours" id="honours"><br>
+
+			<label for="ssc">SSC Score(out of 5):</label>
+			<meter id="ssc" min="0" low="1.0" high="4.75" max="5.0" value="4.8"></meter><br>
+
+			<label for="hsc">SSC Score(out of 5):</label>
+			<meter id="hsc" min="0" low="1.0" high="3.5" max="5.0" value="3.5"></meter>
+
+			<br><label for="ssc">SSC Score(out of 5):</label>
+			<meter id="ssc" min="0" low="1.0" high="3.5" max="4.0" value="0.9"></meter><br>
+
+			<label for="message">Message(optional)</label><br>
+			<textarea cols="40" rows="5" class=message id="message" placeholder="Write your massage here..."></textarea><br>
+
+			<input type="submit" name="submit" class="submit" id="submit" value="SUBMIT">
+			</fieldset>
+		</form>
+	</div>
+	<!--LI, UL-->
+	<div class="container list">
+		<h1>6.ol | 7.ul | 8.li</h1>
+		<ul>
+			<li>Block Level Element:
+				<ul class="padding80">
+				<ol class="inline-block">
+					<li>address</li>
+					<li>article</li>
+					<li>aside</li>
+					<li>blockqoute</li>
+					<li>canvas</li>
+					<li>dd</li>
+					<li>div</li>
+					<li>dl</li>
+					<li>dt</li>
+					<li>fieldset</li>
+				</ol>
+				<ol class="inline-block lower-roman" start="i">
+					<li>figcaption</li>
+					<li>figure</li>
+					<li>footer</li>
+					<li>form</li>
+					<li>h1-h6</li>
+					<li>header</li>
+					<li>hr</li>
+					<li>li</li>
+					<li>main</li>
+					<li>nav</li>
+				</ol>
+				<ol class="inline-block lower-alpha" start="a">
+					<li>noscript</li>
+					<li>ol</li>
+					<li>p</li>
+					<li>pre</li>
+					<li>section</li>
+					<li>table</li>
+					<li>tfoot</li>
+					<li>ul</li>
+					<li>video</li>
+					<li>----</li>
+				</ol>
+				</ul>
+			</li>
+			<li>Inline Element:
+				<ol class="padding80">
+				<ul class="inline-block circle-style">
+					<li>a</li>
+					<li>abbr</li>
+					<li>b</li>
+					<li>bdo</li>
+					<li>br</li>
+					<li>button</li>
+					<li>cite</li>
+					<li>code</li>
+					<li>dfn</li>
+					<li>em</li>
+				</ul>
+				<ul class="inline-block disc-style">
+					<li>i</li>
+					<li>img</li>
+					<li>input</li>
+					<li>kbd</li>
+					<li>label</li>
+					<li>map</li>
+					<li>object</li>
+					<li>output</li>
+					<li>q</li>
+					<li>samp</li>
+				</ul>
+				<ul class="inline-block squar-style">
+					<li>script</li>
+					<li>select</li>
+					<li>small</li>
+					<li>span</li>
+					<li>strong</li>
+					<li>sub</li>
+					<li>sup</li>
+					<li>textarea</li>
+					<li>time</li>
+					<li>var</li>
+				</ul>
+				</ol>
+			</li>
+		</ul>
+	</div>
+	<!--LINK-->
+	<div class="container">
+		<h1>9.link</h1>
+		<div class="social-media link">
+			<h3>Social Media Links:</h3>
+			<a href="https://facebook.com/mdsanaaaullah">Facebook Profile</a>
+			<a href="https://facebook.com/mdsanaaaullah">Facebook Page</a>
+			<a href="https://twitter.com/sanaaaullah">Twitter Profile</a>
+			<a href="https://linkdin.in/sanaaaullah">LinkedIn Profile</a>
+			<a href="https://www.youtube.com/channel/UC5BAZKFRLz967wMrfRPxDag?view_as=subscriber">Youtube Channel</a>
+		</div>
+		<div class="home-work link">
+			<h3>Homework Links</h3>
+			<a href="../Html Homework-1/index.html">Homework One</a>
+			<a href="../Html Homework-2/index.html">Homework Two</a>
+			<a href="../Html Homework-3/index.html">Homework Three</a>
+		</div>
+	</div>
+	<!--MAIN-->
+	<section class="container main-mark">
+		<main>
+				<h1>10.p | 11.span | 12.strong | 13.small | 14.section | 15.main | 16.</h1>
+				<h2>Most commonly used tags and elements in HTML:</h2>
+			<div>
+				<h3>A) !DOCTYPE</h3>
+				<p><strong>!DOCTYPE</strong> declares to the web browser about the html <mark>version 5.0</mark></p>
+			</div>
+			<div>
+				<h3>B) html</h3>
+				<p>The <strong>tag</strong> represents <span style="color:#fc0a1a">the root of an HTML elements</span>. And it is the cpntainer of all other HTML elements and tags except !doctype.</p>
+			</div>
+			<div>
+				<h3>C) head</h3>
+				<p>The HTML <strong>head</strong> element is a <span style="color:#fc0a1a">container</span> for all other head elements:title, style, meta, link, base,script.</p>
+			</div>
+			<div>
+				<h3>D) body</h3>
+				<p>The <strong>body</strong> tag defines the <span style="color:#fc0a1a">documents body</span>. This element contains all the contents of an HTML document, such as heading, paragraph,image, hyperlink, table,lists, etc.</p>
+			</div>
+			<div>
+				<h3>E) h1-h6</h3>
+				<p>The <strong>h1 to h6</strong> elements used to define HTML <span style="color:#fc0a1a">headings</span>.h1 defines the most important heading and h6 defines the least important heading.</p>
+			</div>
+			<div>
+				<h3>F) p</h3>
+				<p> The <strong>p</strong> tags defines a <span style="color:#fc0a1a">paragraph</span>. Browser automatically add a single blank line before and after each p element.</p>
+			</div>
+			<div>
+				<h3>G) a</h3>
+				<p>The <strong>a</strong> tag defines a <span style="color:#fc0a1a">hyperlink</span>, which used to link from one page to another. The most important of the a element is the href attribute, whichh indicates the links destination</p>
+			</div>
+			<div>
+				<h3>H) div</h3>
+				<p>The <strong>div</strong> tag defines a <span style="color:#fc0a1a">division or a section</span> in an HTML document.The div tag is easily styled by using the class or id attriute.</p>
+			</div>
+			<div>
+				<h3>I) nav</h3>
+				<p>The <strong>nav</strong> tag defines a set of <span style="color:#fc0a1a">navigation links.</span></p> 
+				<p><small style="color:yellow">Notice that</small> NOT all linksof a document should be inside a nav element.The nav element is intended only for major block of navigation link.</p>
+			</div>
+		</main>
+	</section>
+	<!--nav-->
+	<div class="container">
+		<h1>17.nav</h1>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">Gallery</a>
+			<a href="#">Carreer</a>
+			<a href="#">Contact</a>
+		</nav>
+		
+	</div>
+	<!--nav-->
+	<div class="container object">
+		<h1>18.object</h1>		
+		<object data="asset/Html Homework-4.pdf"></object>
+	</div>
+	<!--select, optgroup, option-->
+	<div class="container">
+		<h1>19.optgroup | 20.option | 21.select</h1>	
+		<form class="cars" action="#" method="get">	
+			<label for="cars">Select your car:</label>
+			<select id="cars">
+				<optgroup label="Swedish Cars">
+					<option>Volvo</option>
+					<option>Saab</option>
+				</optgroup>
+				<optgroup label="German Cars">
+					<option>Marcedes</option>
+					<option>Audi</option>
+				</optgroup>
+			</select><br>
+			<input type="submit" name="sbumit" value="SUBMIT" id="submit">
+		</form>
+	</div>
+	<!--picture, source, pre-->
+	<div class="container">
+		<h1>22.picture | 23.source | 24.pre </h1>
+		<picture>
+			<pre>Resize the window to
+				see the effects.
+			and here i have used &#60pre&#62 tag also.</pre>
+			<source srcset="images/nature.jpg" media="(min-width:650px)">
+			<source srcset="images/trees-in-park.jpg" media="(min-width:450px)">
+			<img src="images/water-and-trees.jpg">
+		</picture>
+	</div>
+	<!--progress-->
+	<div class="container">
+		<h1>25.progress </h1>
+		<label class="margin-20px" for="file">Downloading Progresss:</label>
+		<progress id="file" value="30" max="100">30%</progress>
+	</div>
+	<!--q-->
+	<div class="container">
+		<h1>26.q</h1>
+		<p>The Prophet (ﷺ  ) said, <q>The honorable, the son of the honorable, the son of the honorable, (was) Joseph, the son of Jacob! the son of Isaac, the son of Abraham.</q></p>
+	</div>
+	<!--q-->
+	<div class="container">
+		<h1>27.s</h1>
+		<p><p><s>Only 100 tickets left!</s></p></p>
+		<p>Sold out.</p>
+	</div>
+	<!--q-->
+	<div class="container">
+		<h1>28.samp</h1>
+		<p>Massage from my computer</p>
+		<samp>File not found. <br>Press F11 to continue.</samp>
+	</div>
+	<!--script-->
+	<div class="container">
+		<h1>29.script</h1>
+		<p id="demo"></p>
+	</div>
+	<!--sub, sup-->
+	<div class="container">
+		<h1>30.sub, 311.sup</h1>
+		<p style="font-style:italic;">(a+b)<sup>2</sup>=a<sup>2</sup>+2ab+b<sup>2</sup></p>
+		<p style="font-style:italic;">H<sub>2</sub>+SO<sub>4</sub>=H<sub>2</sub>SO<sub>4</sub></p>
+	</div>
+	<!--summary-->
+	<div class="container">
+		<h1>32.summary</h1>
+		<details>
+			<summary>What is Lorem Ipsum?</summary>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</details>
+	</div>
+	<!--svg-->
+	<div class="container">
+		<h1>33.svg</h1>
+		<svg>
+			<rect width="300" height="180" style="fill:rgb(0,106,78);"></rect>
+			<circle cx="135" cy="90" r="60" style="fill:rgb(244,42,65)"></circle>
+		</svg>		
+	</div>
+	<div class="container">
+		<h1>34.thead | 35.tbody | 36.tfoot | 37.tr | 38.th | 39.td | 40.table</h1>
+		<table>
+			<caption>LIST OF A FEW ELEMENTS</caption>
+				<thead>
+					<tr>
+						<th>Block Element</th>
+						<th>Inline Element</th>
+						<th> Semantic Element</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>address</td>
+						<td>button</td>
+						<td>figcaption</td>
+					</tr>
+					<tr>
+						<td>article</td>
+						<td>img</td>
+						<td>summary</td>
+					</tr>
+					<tr>
+						<td>table</td>
+						<td>input</td>
+						<td>details</td>
+					</tr>
+					<tr>
+						<td>header</td>
+						<td>output</td>
+						<td>mark</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>total=29</td>
+						<td>total=30</td>
+						<td>total=13</td>
+					</tr>
+				</tfoot>
+		</table>	
+	</div>
+	<!--var,time-->
+	<div class="container">
+		<h1>41.var | 42.time</h1>
+		<p>
+			The area of triangle is : 1/2 x <var>b</var> x <var>h</var>,<var>b</var> is the base and <var>h</var> is the vertical height.	 
+			<p>Now time is <time>16:30</time></p>
+		</p>	
+	</div>
+	<!--video-->
+	<div class="container">
+		<h1>43.video</h1>
+		<video controls>
+			<source src="asset/dr-abdullah-jahangir.mp4" type="video/mp4" >
+		</video>	
+	</div>
+	<script>
+			document.getElementById("demo").innerHTML = "Assalamu Alikum";
+	</script>
+</body>
+</html>
